@@ -3,7 +3,7 @@ package lang.wrapper;
 public class WrapperClassMain {
 
     public static void main(String[] args) {
-        Integer newInteger = new Integer(10);       // 'Integer(int)' is deprecated since version 9 and marked for removal -> 대신에 valueOf()를 사용
+        Integer newInteger = new Integer(10);    // 'Integer(int)' is deprecated since version 9 and marked for removal -> 대신에 valueOf()를 사용
         Integer integerObj = Integer.valueOf(10);   // -128 ~ 127 까지는 자바가 미리 만들어놓은 것을 반환, 불변
         Long longObj = Long.valueOf(10);
         Double doubleObj = Double.valueOf(10.5);
